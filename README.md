@@ -11,7 +11,7 @@
  - 알고리즘의 시간복잡도</br>
 
 	* O(n²)의 시간 복잡도
-		- 버블 정렬 (Bubble sort)
+		- [버블 정렬 (Bubble sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/BubbleSort.py)
     	- 선택 정렬 (Selection sort)
 		- 삽입 정렬 (insertion sort)
 </br></br>  
@@ -47,4 +47,6 @@
         
         시간 복잡도는 O(n²).
 
+  2. 선택 정렬 (Selection sort)
         
+        선택 정렬은 
