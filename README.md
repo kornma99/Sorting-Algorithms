@@ -21,7 +21,7 @@
         - 힙 정렬 (heap sort)
 </br></br> 
     * 그 외의 시간 복잡도를 가지는 정렬과 재밌는 정렬
-        - 쉘 정렬 (Shell sort)  [ O(n2) ~ O(nlogn) ]
+        - 쉘 정렬 (Shell sort)  [ O(n²) ~ O(nlogn) ]
         - 보고 정렬 (Bogo sort) [ O((n+1)!) ]
 </br></br>
 
@@ -31,6 +31,8 @@
 
 
 - ###  O(n²) 의 시간 복잡도
+  
+n
   1. 버블 정렬 (Bubble sort)
 
         버블 정렬은
