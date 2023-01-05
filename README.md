@@ -12,17 +12,17 @@
 
 	* O(n²)의 시간 복잡도
 		- [버블 정렬 (Bubble sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/BubbleSort.py)
-    	- 선택 정렬 (Selection sort)
-		- 삽입 정렬 (insertion sort)
+    	- [선택 정렬 (Selection sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/InsertionSort.py)
+		- [삽입 정렬 (insertion sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/InsertionSort.py)
 </br></br>  
     * O(nlogn)의 시간 복잡도
-        - 합병 정렬/머지 정렬 (Merge sort)
-        - 퀵 정렬 (Quick sort)
-        - 힙 정렬 (heap sort)
+        - [합병 정렬/머지 정렬 (Merge sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/MergeSort.py)
+        - [퀵 정렬 (Quick sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/QuickSort.py)
+        - [힙 정렬 (heap sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/HeapSort.py)
 </br></br> 
     * 그 외의 시간 복잡도를 가지는 정렬과 재밌는 정렬
-        - 쉘 정렬 (Shell sort)  [ O(n²) ~ O(nlogn) ]
-        - 보고 정렬 (Bogo sort) [ O((n+1)!) ]
+        - [쉘 정렬 (Shell sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/ShellSort.py) [ O(n²) ~ O(nlogn) ]
+        - [보고 정렬 (Bogo sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/BogoSort.py) [ O((n+1)!) ]
 </br></br>
 
 ---
