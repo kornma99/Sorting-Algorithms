@@ -1,4 +1,4 @@
-def bubbleSort(arr):
+def bubble_sort(arr):
     n = len(arr)
     
     for i in range(n):
@@ -8,6 +8,7 @@ def bubbleSort(arr):
     
             if arr[j] > arr[j + 1]: 
                 arr[j], arr[j + 1] = arr[j + 1], arr[j] 
+    return arr
 
-ar=[10,5,4,7,8,2,3,9]
-bubbleSort(ar)
+arr1=[10,5,4,7,8,2,3,9]
+bubble_sort(arr1)

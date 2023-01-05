@@ -1,4 +1,4 @@
-def SelectionSort(arr):
+def selection_sort(arr):
     length = len(arr)
     
     for i in range(length):
@@ -13,4 +13,4 @@ def SelectionSort(arr):
     return arr
 
 arr1=[6,3,2,1,4]
-SelectionSort(arr1)
+selection_sort(arr1)
