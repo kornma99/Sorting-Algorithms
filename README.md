@@ -13,7 +13,7 @@
 	* O(n²)의 시간 복잡도
 		- [버블 정렬 (Bubble sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/BubbleSort.py)
     	- [선택 정렬 (Selection sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/InsertionSort.py)
-		- [삽입 정렬 (insertion sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/InsertionSort.py)
+		- [삽입 정렬 (Insertion sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/InsertionSort.py)
 </br></br>  
     * O(nlogn)의 시간 복잡도
         - [합병 정렬/머지 정렬 (Merge sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/MergeSort.py)
@@ -45,8 +45,15 @@
         첫 회전에는 n-1번, 두번째에는 n-2, 계속 반복하다가 마지막 회전에는 1번의 비교를 마칠 것이다.
         그렇다면 전체 비교 횟수는 n(n-1)/2가 될 것이다. 
         
-        시간 복잡도는 O(n²).
+        시간 복잡도는 O(n²)</br></br>
 
   2. 선택 정렬 (Selection sort)
         
-        선택 정렬은 
+        선택 정렬은 2개의 제어문을 이용해 첫번째 회전에는 가장 작은 원소를 앞으로, 두번째 제어문에서는 그 다음으로 작은 원소를 앞에서 두번째로 보내는 것을 반복하면서 정렬하는 방법이다.
+
+        첫번째 제어문에서는 n-1번 반복하고, 두번째 내부 제어문에서는 최솟값을 찾기 위해 n-1,n-2,n-3,...,2,1번 반복한다.
+        그렇다면 전체 비교 횟수는 역시 n(n-1)/2.
+
+        시간 복잡도는 O(n²)</br></br>
+  
+  3. 삽입 정렬 (Insertion sort) 
