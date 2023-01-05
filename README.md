@@ -24,4 +24,15 @@
         - 쉘 정렬 (Shell sort)  [ O(n2) ~ O(nlogn) ]
         - 보고 정렬 (Bogo sort) [ O((n+1)!) ]
 </br></br>
+
 ---
+
+</br></br>
+
+
+- ###  O(n²) 의 시간 복잡도
+  1. 버블 정렬 (Bubble sort)
+
+        버블 정렬은
+
+    
