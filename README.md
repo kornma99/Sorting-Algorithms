@@ -20,8 +20,7 @@
         - [퀵 정렬 (Quick sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/QuickSort.py)
         - [힙 정렬 (Heap sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/HeapSort.py)
 </br></br> 
-    * 그 외의 시간 복잡도를 가지는 정렬과 재밌는 정렬
-        - [쉘 정렬 (Shell sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/ShellSort.py) [ O(n²) ]
+    * 그 외 재밌는 정렬
         - [보고 정렬 (Bogo sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/BogoSort.py) [ O((n+1)!) ]
 </br></br>
 
