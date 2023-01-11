@@ -11,17 +11,17 @@
  - 알고리즘의 시간복잡도</br>
 
 	* O(n²)의 시간 복잡도
-		- [버블 정렬 (Bubble sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/BubbleSort.py)
-    	- [선택 정렬 (Selection sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/InsertionSort.py)
-		- [삽입 정렬 (Insertion sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/InsertionSort.py)
+		- [버블 정렬 (Bubble sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/bubble_sort.py)
+    	- [선택 정렬 (Selection sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/selection_sort.py)
+		- [삽입 정렬 (Insertion sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/insertion_sort.py)
 </br></br>  
     * O(nlogn)의 시간 복잡도
-        - [합병 정렬/머지 정렬 (Merge sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/MergeSort.py)
-        - [퀵 정렬 (Quick sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/QuickSort.py)
-        - [힙 정렬 (Heap sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/HeapSort.py)
+        - [합병 정렬/머지 정렬 (Merge sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/merge_sort.py)
+        - [퀵 정렬 (Quick sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/quick_sort.py)
+        - [힙 정렬 (Heap sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/heap_sort.py)
 </br></br> 
     * 그 외 재밌는 정렬
-        - [보고 정렬 (Bogo sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/BogoSort.py) [ O() ]
+        - [보고 정렬 (Bogo sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/bogo_sort.py) [ O(∞) ]
 </br></br>
 
 ---
@@ -35,7 +35,7 @@
 
     그러나 효율이 상당히 좋지 않다. 하나하나 비교해가면서 정렬하기 때문에 **시간**이 오래 걸리는 큰 단점이 있다.
 
-  1. [버블 정렬 (Bubble sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/BubbleSort.py)
+  1. [버블 정렬 (Bubble sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/bubble_sort.py)
 
         버블 정렬은 기본적으로 2개의 제어문을 이용해 리스트의 인접한 두 원소를 비교하여 왼쪽의 원소가 더 클 경우 둘의 자리를 바꾸는 방식을 반복한다.
 
@@ -46,7 +46,7 @@
         
         시간 복잡도는 O(n²)</br></br>
 
-  2. 선택 정렬 (Selection sort)
+  2. [선택 정렬 (Selection sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/selection_sort.py)
         
         선택 정렬은 2개의 제어문을 이용해 첫번째 회전에는 가장 작은 원소를 앞으로, 두번째 제어문에서는 그 다음으로 작은 원소를 앞에서 두번째로 보내는 것을 반복하면서 정렬하는 방법이다.
 
@@ -57,7 +57,7 @@
 
         시간 복잡도는 O(n²)</br></br>
   
-  3. 삽입 정렬 (Insertion sort)
+  3. [삽입 정렬 (Insertion sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/insertion_sort.py)
         
         삽입 정렬은 선택 정렬과 방식이 비슷하다. 그러나 제어문을 통한 회전에서 해당하는 인덱스의 원소와 비교되는 원소가 작을 경우, 무조건 바꾼다. 이러한 방식으로 한바퀴 돌면 해당 원소와 가장 작은 원소의 위치만 바뀌는 선택정렬과는 달리 가장 작은 원소가 제일 앞으로 오기 하지만, 나머지 원소들의 위치도 뒤죽박죽이 되게 된다.
 
@@ -72,7 +72,7 @@
     nlog의 시간 복잡도를 가지는 알고리즘들은 기본적으로 데이터를 반으로 쪼갠다는 개념을 기본으로 가져간다. 둘씩 짝지어서 계속 반복하는 O(n²) 의 시간 복잡도를 가지는 알고리즘들과는 다르게 반복할수록 반복해야하는 횟수가 반으로 줄어들기 때문에 시간의 효율이 좋다. 
 </br></br>
 
-  1. 합병 정렬/머지 정렬 (Merge sort)
+  1. [합병 정렬/머지 정렬 (Merge sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/merge_sort.py)
 
         합병 정렬은 주어진 배열을 첫 회전에는 2개로, 다음 회전에는 4개로, 반복하여 쪼개어 리스트에 하나의 원소만 있을 때까지(더이상 쪼갤 수 없을 때까지) 쪼갠다.
         이후 두개씩 합치기를 하는데, 이때 중요한 점은 합칠 때 작은 숫자가 앞으로 오게 위치시키는 것이다. 이러한 방식을 반복하면 정렬이 완료된다.
@@ -83,7 +83,7 @@
 
 
 
-    2.  퀵 정렬 (Quick sort)
+    2.  [퀵 정렬 (Quick sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/quick_sort.py)
         
         퀵 정렬은 합병 정렬과 마찬가지로 분할 정복(Divide and Conquer)과 재귀 함수를 이용한 알고리즘이다.
 
@@ -92,7 +92,7 @@
 
         이제 왼편을 새로운 임의의 기준값을 이용해 나누고, 오른쪽도 동일하게 나눠준다. 이것을 반복하다 보면 하나의 원소만을 가지고 있는 배열들이 생기는데, 이 배열들은 피봇으로 계속 순서대로 나눈 것이니, 그대로 이어 붙이면 정렬된 배열을 얻을 수 있다.</br></br>
 
-    3. 힙 정렬 (Heap sort)
+    3. [힙 정렬 (Heap sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/heap_sort.py)
 
         힙 정렬은 자료구조의 지식이 필요하다. 아직 부족한 부분이라 참고할 [링크](https://gmlwjd9405.github.io/2018/05/10/algorithm-heap-sort.html)만 달아두고 돌아오겠다.
 
@@ -104,7 +104,9 @@
 
 - ###  그 외 재밌는 정렬 알고리즘
     
-    1. 보고 정렬 (Bogo sort)
+    1. [보고 정렬 (Bogo sort)](https://github.com/kornma99/Sorting-Algorithms/blob/main/bogo_sort.py)
 
         보고 정렬은 유트브에서 처음 보고 이게 뭐지 하면서 5분넘게 봤던 기억이 있다. 보고 정렬의 매커니즘은 운이다. 운. 운이 좋다 할 때 그 운이다. 
         주어진 배열을 **랜덤**으로 계속 돌린다. 맞을때까지. 계에에에에속 돌리는거다. 3개의 원소가 있는 배열이여도 운 나쁘면 3시간이 넘게 걸릴 수 있고, 100개의 원소가 있는 배열이여도 운이 기깔내게 좋으면 단 한번만에 오름차순 정렬이 완성될 수 있는 것이다.
+
+        그래서 최악의 시간복잡도는 무한대이다.
